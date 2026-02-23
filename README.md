@@ -15,6 +15,26 @@ The computer opponent is powered by a **Minimax algorithm with Alpha-Beta prunin
 
 ---
 
+## 📱Main Screens
+- **Game States**
+
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/4d331045-a237-48ca-8e03-9e0a05eeec3f" />
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/fb6654b2-eb20-4992-8e17-7b7a9c1c2cc7" />
+
+- **Game Actions**
+
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/83beb94e-9fa0-49ca-b854-069c89c226ca" />
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/b9ab041d-4c7a-41a0-966a-5ae8fe96d814" />
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/b213d01c-9e56-4290-9122-53831f9b7b90" />
+    
+- **Game Results**
+
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/c32f770d-b0ee-4f4b-9843-1f7c6e0bb86b" />
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/befd8d16-bbb7-4705-adf1-dba01f21ecb4" />
+  <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/98656fba-b513-4a15-a752-8bfa28ef1b8c" />
+
+---
+
 ## 🧩 Game Principles
 
 - **Two players**: Human (X) vs. AI (O), taking turns.
@@ -77,7 +97,7 @@ The heuristic evaluates board states using:
 
 ## 🛠 Tech Stack
 
-- **Python 3**
+- **Python**
 - **Pygame** – Game rendering and UI
 - **functools.lru_cache** – State memoization
 - **Custom AI engine** – Minimax + Alpha-Beta + adaptive depth
