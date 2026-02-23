@@ -1,7 +1,7 @@
 # 🎮 Smart Tic-Tac-Toe – Final Project for Advanced Algorithms
 
-**Course**: Advanced Algorithms for Intelligent Systems
-**Team Members**: Or Dahan, Roni Ronen, Mor Adari, Haran Gidoni
+**Course**: Advanced Algorithms for Intelligent Systems\
+**Team Members**: Or Dahan, Roni Ronen, Mor Edri, Haran Gidoni
 
 ---
 
