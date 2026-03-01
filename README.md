@@ -1,11 +1,8 @@
-# 🎮 Smart Tic-Tac-Toe – Final Project for Advanced Algorithms
-
-**Course**: Advanced Algorithms for Intelligent Systems\
-**Team Members**: Or Dahan, Roni Ronen, Mor Edri, Haran Gidoni
+# Web Strategy Game – Final Project for Advanced Algorithms
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project presents an **enhanced and intelligent version of the classic Tic-Tac-Toe game**, developed as part of our final assignment for the Advanced Algorithms for Intelligent Systems course.
 
@@ -15,7 +12,7 @@ The computer opponent is powered by a **Minimax algorithm with Alpha-Beta prunin
 
 ---
 
-## 📱Main Screens
+## Main Screens
 - **Game States**
 
   <img width="320" height="385" alt="image" src="https://github.com/user-attachments/assets/4d331045-a237-48ca-8e03-9e0a05eeec3f" />
@@ -35,7 +32,7 @@ The computer opponent is powered by a **Minimax algorithm with Alpha-Beta prunin
 
 ---
 
-## 🧩 Game Principles
+## Game Principles
 
 - **Two players**: Human (X) vs. AI (O), taking turns.
 - **Board size**: 5×5.
@@ -43,30 +40,30 @@ The computer opponent is powered by a **Minimax algorithm with Alpha-Beta prunin
 
 ---
 
-## ✨ Unique Features
+## Unique Features
 
-### 🔒 Pre-game Phase – Barrier Placement
+### Pre-game Phase – Barrier Placement
 - Each player places **1 barrier** on the board before the first move, alternating turns (Human first, then AI).
 - Barriers **block access** to the cell they occupy — neither player can place a symbol on a barrier cell.
 - Barriers persist throughout the game unless removed by an eraser.
 
-### 💣 In-game Special Actions
+### In-game Special Actions
 
 Each player starts the game with **1 bomb** and **1 eraser**.
 
-**🧨 Bomb**
+**Bomb**
 - Targets a row and column simultaneously.
 - Clears **all player symbols (X and O)** in the selected row and column.
 - Barriers are **not** affected by bombs.
 - Each player has **1 bomb** per game.
 
-**🧹 Eraser**
+**Eraser**
 - Removes **1 barrier** from any cell on the board.
 - Each player has **1 eraser** per game.
 
 ---
 
-## 🤖 AI – Minimax with Alpha-Beta Pruning
+## AI – Minimax with Alpha-Beta Pruning
 
 The AI opponent is built using a full **Minimax algorithm** with the following optimizations:
 
@@ -87,7 +84,7 @@ The heuristic evaluates board states using:
 
 ---
 
-## ⚙️ Strategic Considerations
+## Strategic Considerations
 
 - Barriers, bombs, and erasers significantly increase **planning depth** — each action has both immediate and long-term consequences.
 - The AI evaluates not only piece placement but also when and where to use its special actions.
@@ -95,7 +92,7 @@ The heuristic evaluates board states using:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Pygame** – Game rendering and UI
@@ -104,7 +101,7 @@ The heuristic evaluates board states using:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── tic_tac_toe_pygame.py   # Main game file (AI engine + game loop + rendering)
@@ -115,8 +112,6 @@ The heuristic evaluates board states using:
 
 ---
 
-## 🧠 Acknowledgments
+## Acknowledgments
 
 This project was developed as part of the **Advanced Algorithms for Intelligent Systems** course at Ruppin Academic Center. Special thanks to our instructor and mentors for their guidance throughout the project.
-
-> *"Simplicity is the ultimate sophistication – even in advanced algorithms."*
