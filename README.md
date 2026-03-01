@@ -92,6 +92,24 @@ The heuristic evaluates board states using:
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+```bash
+git clone https://github.com/ordahannn/Smart-Tic-Tac-Toe.git
+cd Smart-Tic-Tac-Toe
+pip install pygame
+python tic_tac_toe_pygame.py
+```
+
+---
+
 ## Tech Stack
 
 - **Python**
